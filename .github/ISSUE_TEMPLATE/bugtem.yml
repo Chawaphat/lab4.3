@@ -1,0 +1,28 @@
+name: "🐞 Bug Fix"
+description: "Report a bug that needs to be fixed"
+title: "Bug_Fix/"
+labels: ["bug", "fix"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: "## 🐛 Bug Description\nPlease provide details about the bug that needs to be fixed."
+
+  - type: textarea
+    id: details
+    attributes:
+      label: "Details"
+      description: "Describe the bug that needs to be fixed."
+      placeholder: "Include the issue, expected behavior, and actual behavior."
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: work_area
+    attributes:
+      label: "🛠 Work Area"
+      description: "Select the area(s) where this bug occurs."
+      options:
+        - label: "Frontend"
+        - label: "Backend"
