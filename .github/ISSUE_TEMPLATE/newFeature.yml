@@ -1,6 +1,6 @@
-name: "📌 New Task / Feature Request"
-description: "Create a new task or request a new feature"
-title: "[Feature] <Task or Feature Name>"
+name: "📌 Feature Request"
+description: "Create a new request a new feature"
+title: "<Feature Name>"
 labels: ["enhancement", "feature request"]
 assignees: []
 
@@ -13,7 +13,7 @@ body:
     id: details
     attributes:
       label: "Details"
-      description: "Describe the task or feature you want to add."
+      description: "Describe the feature you want to add."
       placeholder: "Include goals, expected functionality, or any relevant details."
     validations:
       required: true
@@ -28,30 +28,4 @@ body:
         - label: "Backend"
         - label: "Both Frontend & Backend"
 
-  - type: textarea
-    id: tech-stack
-    attributes:
-      label: "🔧 Related Technologies"
-      description: "List the technologies involved in this task or feature."
-      placeholder: "Example: JavaScript, Node.js, Express, Bootstrap, MongoDB, etc."
 
-  - type: textarea
-    id: acceptance-criteria
-    attributes:
-      label: "✅ Acceptance Criteria"
-      description: "Define the conditions under which this task is considered complete."
-      placeholder: "This task is complete when..."
-
-  - type: textarea
-    id: timeline
-    attributes:
-      label: "⏳ Estimated Timeline"
-      description: "Specify the estimated time required for this task (if applicable)."
-      placeholder: "Example: 1 week, 2 weeks, etc."
-
-  - type: textarea
-    id: additional-info
-    attributes:
-      label: "📌 Additional Information"
-      description: "Include any additional notes or references related to this task (if applicable)."
-      placeholder: "For example, API references, design mockups, related documentation, etc."
