@@ -1,6 +1,6 @@
 name: "📌 Feature Request"
 description: "Create a new request a new feature"
-title: "<Feature Name>"
+title: "Feature/"
 labels: ["enhancement", "feature request"]
 assignees: []
 
@@ -26,6 +26,6 @@ body:
       options:
         - label: "Frontend"
         - label: "Backend"
-        - label: "Both Frontend & Backend"
+
 
 
